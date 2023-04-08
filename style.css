@@ -1,0 +1,360 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    /* background-color: #170f23; */
+    color: #fff;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.mar-r-10{
+    margin-right: 10px;
+}
+.sidebar {
+    height: 100vh;
+    width: 240px;
+    position: fixed;
+    background-color: #231b2e;
+}
+
+.logo-zing {
+    padding-top: 13px;
+    padding-left: 28px;
+    height: 70px;
+}
+
+.logo-zing img {
+    width: 120px;
+    height: 40px;
+}
+
+.content {
+    margin-left: 240px;
+}
+
+a ,a:hover{
+    text-decoration: none;
+    color: #fff;
+}
+
+a {
+    cursor: pointer;
+    color: #fff;
+}
+.zm-menu li a {
+    display: flex;
+    align-items: center;
+    font-size: 13px;
+    font-weight: 700;
+    padding: 8px 27px;
+    opacity: 0.7;
+    
+}
+.zm-menu li:hover a {
+    opacity: 1;
+}
+.zm-menu .actice  {
+    background-color: #ffffff1a;
+    border-left:3px solid #9b4de0;
+    
+}
+.zm-menu .actice a {
+    opacity: 1;
+    margin-left: -3px;
+}
+.zm-menu .img-live {
+    padding-left: 5px;
+    background-color: inherit
+}
+.sidebar-divide {
+    position: relative;
+    height: 1px;
+}
+.sidebar-divide:after {
+    content: "";
+    border-top: 1px solid #ffffff1a;
+    position: absolute;
+    left: 25px;
+    right: 25px;
+    top: 0;
+}
+.zm-login {
+    padding:15px 8px;
+    border-radius: 8px;
+    margin: 10px 20px;
+    text-align: center;
+    color: #fff;
+    background-color: #9b4de0;
+}
+.zm-login .text {
+    font-size: 14px;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+.zm-btn{
+    text-align: center;
+    cursor: pointer;
+    border: 0;
+    font-size: 14px;
+    line-height: normal;
+    border: 0;
+    display: inline-block;
+    font-weight: 400;
+    text-transform: none;
+    text-align: center;
+    cursor: pointer;
+    position: relative;
+}
+
+.zm-login .zm-btn {
+    border-color: #fff;
+    padding: 6px 35px;
+    color: inherit;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    background-color: #ffffff1a;
+    border: 1px solid #ffffff1a;
+   
+}
+.zm-login .zm-btn:hover {
+    opacity: 0.8;
+}
+.add-playlist .zm-btn {
+    position: fixed;
+    width: 240px;
+    left: 0;
+    height: 54px;
+    border-top: 1px solid #ffffff1a;
+    padding: 0 28px;
+    display: flex;
+    align-items: center;
+    color: inherit;
+    font-weight: 700;
+    bottom: 0;
+    text-transform: none
+}
+button {
+    background-color: transparent;
+    word-break: normal;
+   
+}
+.add-playlist .icon {
+    font-size: 18px;
+    margin-right: 10px;
+}
+.content {
+    width: 1350px;
+    background-color: #170f23;
+    height:auto;
+}
+.content .header {
+    position: fixed;
+    width: 1350px;
+    height: 70px;
+    background-color: #170f23cc;
+   z-index: 1000;
+    
+}
+.content .header .level {
+    height: 100%;
+    padding: 0px 59px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header .level .level-left{
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+}
+.search {
+    max-width: 440px;
+    width: 100%;
+    border-radius: 20px;
+    height: 40px;
+    background-color: #ffffff1a;
+    display: flex;
+    position: relative;
+}
+.level-left i{
+    margin-right: 20px;
+}
+.search-container {
+    display: flex;
+    width: 440px;
+}
+.search-container .zm-btn i {
+    color: #fff;
+    position: absolute;
+    top:13px;
+    left: 12px;
+    font-size: 17px;
+    
+}
+.search-container .input-wrapper {
+    position: absolute;
+    top: 0;
+    left: 38px;
+    right: 10px;
+    bottom: 0;
+}
+.search-container input {
+    margin: 0;
+    display: inline-block;
+    width: 95%;
+    font-size: 16px;
+    color: #fff;
+    border: 0;
+    position: relative;
+    top: 2px;
+    height: 34px;
+    padding: 5px 0;
+    line-height: 34px;
+    background-color: transparent;
+    outline: none;
+    border: 0;
+}
+.header .level-right {
+    display: flex;
+    flex-direction:flex-end;
+}
+.search-container input:focus {
+    outline: none;
+    background-color: transparent;
+    border: 0;
+}
+.download-btn{
+    background-color:#ffffff1a;
+        display: flex;
+        padding: 10px 24px;
+        align-items: center;
+        font-weight: 600;
+        color: #c273ed;
+    margin-right:10px;
+
+    border-radius: 999px;
+
+}
+.dinamod-item{
+    margin-right:10px;
+    background-color:#ffffff1a;
+    border-radius: 50%;
+}
+.icon-gem {
+    color: #fff;
+    padding:15px 14px 10px 15px;  
+}
+.login-container {
+    display: flex;
+    position: relative;
+    padding: 10px 24px;
+    background-color: #9b4de0;
+    border-radius: 20px;
+}
+.login-container>.zm-btn {
+    color: #feffff;
+    font-weight: 600;
+    line-height: 20px;
+}
+.slider {
+   padding-top: 70px;
+   width: 1232px;
+   margin:auto;
+}
+.carousel-item img{
+    width: 100%;
+    height: 232px;
+    border-radius: 5px;
+}
+.carousel{
+  margin-top:32px ;
+  margin-bottom: 20px;
+}
+.new-release {
+    height: auto;
+    width: 1232px;
+    margin: 48px auto;
+}
+.title {
+    font-size: 20px;
+    font-weight: 700;
+    padding-bottom: 20px;
+
+}
+.select-country{
+    margin-bottom: 16px;
+}
+.select-country button {
+    color: #fff;
+    padding: 4px 24px;
+    border: 1px solid #ffffff1a;
+    border-radius:100px;
+    font-weight: 400;
+    font-size: 12px;
+    text-transform: uppercase;
+    margin-right: 15px;
+}
+.select-country .active {
+    border-color: #9b4de0;
+    background-color: #9b4de0;
+}
+.columns {
+    min-height: 190px;
+    height:auto;
+    display:flex;
+    flex-wrap: wrap;
+}
+.column {
+    width: 33.333333%;
+    
+}
+.columns .item {
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    position: relative;
+    border-radius: 5px;
+}
+.columns .item img {
+    width: 60px;
+    height: 60px;
+   
+    border-radius: 5px;
+}
+.card-info span{
+    display: block;
+}
+.card-info span:first-child {
+    font-size: 16px;
+    font-weight: 500;
+    color: #fff;
+}
+.card-info span {
+    font-size: 14px;
+    color: #ffffff80;
+}
+.item:hover,.item:hover .song i {
+    background-color: #ffffff1a;
+    visibility: visible;
+}
+.song{
+    width: 60px;
+    height: 60px;
+    position: relative;
+    margin-right: 10px;
+}
+.song i {
+    position: absolute;
+   top:50%;
+   left: 50%;
+   transform: translate(-50%,-50%);
+    visibility: hidden;
+}
+.chill-songs {
+    margin-top: 40px ;
+}
+.type {
+    width: calc(100% / 5);
+}
